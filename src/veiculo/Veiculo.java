@@ -24,9 +24,24 @@ public class Veiculo {
 	public String getModelo() {
 		return Modelo;
 	}
-	
-	public void Ligar() {
-		System.out.println();
+	public String getMarca() {
+		return Marca;
+	}
+	public int getAno() {
+		return Ano;
+	}
+	public String getCombustivel() {
+		return Combustivel;
 	}
 	
+	public void Ligar() {
+		System.out.println("O veiculo " + getModelo() + "esta sendo ligado.");
+		System.out.println("veiculo ligado");
+	}
+	
+	public void Desligar() {
+		System.out.println("O veiculo " + getModelo() + "esta sendo deligado.");
+		System.out.println("veiculo desligado");
+		
+	}
 }

@@ -9,6 +9,13 @@ public class Moto extends Veiculo{
 	
 	@Override
 	public void Ligar() {
-		System.out.println(getModelo() + " esta ligando.");
+		System.out.println("A moto " + getModelo() + " esta sendo ligada.");
+		System.out.println("Moto ligada");
+	}
+	
+	@Override 
+	public void Desligar(){
+		System.out.println("A moto " + getModelo() + " esta sendo desligada.");
+		System.out.println("Moto desligada");
 	}
 }
